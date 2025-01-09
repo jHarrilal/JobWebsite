@@ -1,0 +1,51 @@
+.custom-search-section {
+    padding: 50px 0; /* Increases padding for better spacing */
+}
+
+.custom-search-section h1.display-4 {
+    font-size: 2.75rem; /* Increase font size for the header */
+    font-weight: bold;
+}
+
+.custom-search-section p.lead {
+    font-size: 1.15rem; /* Adjust text size of the paragraph */
+}
+
+.custom-search-section p.lead {
+    color: rgb(221, 221, 221); /* Set text color to gray */
+}
+
+.custom-search-section {
+    padding: 120px 0;
+}
+
+.custom-search-section .input-group .form-control:first-child {
+    width: 40%; /* Job title/input takes 2/3 width */
+}
+
+.custom-search-section .input-group .form-control:last-child {
+    width: 60%; /* Location input takes 1/3 width */
+}
+
+.custom-search-section .btn {
+    background-color: orange; /* Change the button color to orange */
+    border: none; /* Optional: Remove border for a cleaner look */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: orange; /* Highlight the active link with orange color */
+}
+
+/* CSS for grid and list views */
+.job-item {
+    margin-bottom: 20px;
+}
+
+.grid .job-item {
+    width: 50%; /* Adjust based on your grid layout */
+}
+
+.list .job-item {
+    width: 100%; /* Full width for list layout */
+}
